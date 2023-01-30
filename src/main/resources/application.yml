@@ -1,0 +1,15 @@
+Server:
+  port: 8081
+
+
+#Spring Data Source
+Spring:
+  datasource :
+    url : jdbc:mysql://localhost:3306/ratingservice
+    username : root
+    password : moon
+
+server:
+  error:
+    path: /error
+
